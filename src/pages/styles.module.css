@@ -10,6 +10,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url('/static/img/front-header.png');
 }
 
 @media screen and (max-width: 966px) {
@@ -29,9 +30,13 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+}
+
+.center {
+  text-align:center
 }

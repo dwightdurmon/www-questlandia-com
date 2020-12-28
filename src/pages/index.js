@@ -8,28 +8,37 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Survival (1.15.2)',
+    imageUrl: 'img/Survival.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        There are two 1.15.2 Survival worlds which include one with no hostile mobs (e.g. no monsters) and a second world with hostile mobs.  The 
+        "No Monsters" world includes some NPC characters which sell most things you would normally get from killing hostile mobs.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Creative (1.15.2)',
+    imageUrl: 'img/Creative.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        There are a couple of Creative worlds available which also include WorldEdit capabilities.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Skyblock (1.15.2)',
+    imageUrl: 'img/Skyblock.png',
+    description: (
+      <>
+        Currently there is a Skyblock server running Iridium Skyblock.  This server includes both the Iridium Skyblock world as well as a Skyblock 
+        hub with vendors who sell some items you can take back to your Skyblock world to enhance it.
+      </>
+    ),
+  },
+  {
+    title: 'Minigames (1.15.2)',
+    imageUrl: 'img/Minigames.png',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -37,6 +46,59 @@ const features = [
       </>
     ),
   },
+  {
+    title: 'Creative Plotworld (1.15.2)',
+    imageUrl: 'img/Plotworld.png',
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: "Kids's World (1.15.2)",
+    imageUrl: 'img/Kids-World.png',
+    description: (
+      <>
+        Kid's world is an Amusement Park world with a number of rides you can enjoy 
+        as well as a glass maze you can get lost in.
+      </>
+    ),
+  },
+  {
+    title: 'Old World (1.15.2)',
+    imageUrl: 'img/Old-World.png',
+    description: (
+      <>
+        "Old World" contains a number of older Minecraft Worlds that we used to play on 
+        which were converted from Minecraft Bedrock worlds to Minecraft Java worlds.  Some of these
+        are set to adventure mode and are available for exploration only.  A couple of the creative worlds 
+        such as "Anna &amp; Alex World" are still being actively played on.
+      </>
+    ),
+  },
+  {
+    title: 'Forge Creative (1.12.2)',
+    imageUrl: 'img/Forge.png',
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: 'Forge Survival (1.15.2)',
+    imageUrl: 'img/Forge.png',
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  
 ];
 
 function Feature({imageUrl, title, description}) {
@@ -59,7 +121,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -72,7 +134,16 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Click Here For Help
+            </Link>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={'https://durmon.org/downloads/mods.zip'}>
+              Download Forge Modpack
             </Link>
           </div>
         </div>
@@ -81,6 +152,8 @@ function Home() {
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
+              <div className={styles.center}><img src='static/img/Game-Modes.png'/></div>
+              <hr/>
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />

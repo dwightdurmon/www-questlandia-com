@@ -1,18 +1,18 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Durmon Minecraft',
+  tagline: 'Welcome to Durmon Minecraft',
+  url: 'https://durmon.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dwightdurmon', // Usually your GitHub org/user name.
+  projectName: 'DurmonMC2', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Durmon Minecraft',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Durmon Minecraft Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -24,8 +24,8 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'minecraft://minecraft.durmon.org',
+          label: 'Server IP: minecraft.durmon.org',
           position: 'right',
         },
       ],
@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Durmon Minecraft. Built with Docusaurus.`,
     },
   },
   presets: [
