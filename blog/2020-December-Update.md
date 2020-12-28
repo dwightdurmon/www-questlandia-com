@@ -16,3 +16,9 @@ Christmas Time is here in the Lobby!  Check out the decorations and snow effects
 ### Forge Server Online
 
 The Forge server is online.  You will need Minecraft Forge 1.12.2 as well as the [required mods](https://durmon.org/downloads/mods.zip).
+
+### New Site Online
+
+The new website is now online (and you are reading it!)  Yay!
+
+We'll try to continue adding more documentation and details as we can!

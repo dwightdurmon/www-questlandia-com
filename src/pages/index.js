@@ -41,8 +41,9 @@ const features = [
     imageUrl: 'img/Minigames.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        21 Minigames you can play against other players.  Games include: Spleef, One In The Chamber, Floor Shuffle, Sumo, 
+        The Dropper, Parkour, Volcano, Hot Potato, Punch The Bat, Splegg, Ore Miner, Animal Slaughter, Crafting Master, 
+        Horse Race, Mine Field, Survival Games, TNT Run, Mob Shooter, Hoe Hoe Hoe, Colorful Run, and Quake.
       </>
     ),
   },
@@ -51,8 +52,8 @@ const features = [
     imageUrl: 'img/Plotworld.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A "PlotSquared" world where you can claim a plot and build anything you want.  Plots are protected from other players. WorldEdit tools are available
+        on this world.
       </>
     ),
   },
@@ -83,22 +84,30 @@ const features = [
     imageUrl: 'img/Forge.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A creative world running on Forge 1.12.2 with Mods including Better Animals/Better Animals Plus, Biomes O' Plenty,
+        Cooking for Blockheads, Decocraft, Pam's Harvestcraft, Serene Seasons, Camping Mod, Traveler's Backpack, and Zoo &amp; Wild Animals.
       </>
     ),
   },
   {
-    title: 'Forge Survival (1.15.2)',
+    title: 'Forge Survival (1.12.2)',
     imageUrl: 'img/Forge.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A survival world running on Forge 1.12.2 with Mods including Better Animals/Better Animals Plus, Biomes O' Plenty,
+        Cooking for Blockheads, Decocraft, Pam's Harvestcraft, Serene Seasons, Camping Mod, Traveler's Backpack, and Zoo &amp; Wild Animals.
       </>
     ),
   },
-  
+  {
+    title: 'Adventure World (1.15.2)',
+    imageUrl: 'img/Adventure.png',
+    description: (
+      <>
+        Coming soon... an RPG Adventure World with Quests, Dungeons, Parties, and more.
+      </>
+    ),
+  },
 ];
 
 function Feature({imageUrl, title, description}) {
