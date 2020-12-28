@@ -134,7 +134,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Click Here For Help
+              Documentation
             </Link>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <Link
@@ -143,7 +143,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={'https://durmon.org/downloads/mods.zip'}>
-              Download Forge Modpack
+              Forge Modpack
             </Link>
           </div>
         </div>
