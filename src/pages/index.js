@@ -152,7 +152,7 @@ function Home() {
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
-              <div className={styles.center}><img src='static/img/Game-Modes.png'/></div>
+              <div className={styles.center}><img src={useBaseUrl('img/Game-Modes.png')} /></div>
               <hr/>
               <div className="row">
                 {features.map((props, idx) => (
