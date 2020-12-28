@@ -4,7 +4,7 @@ title: December 2020 Update
 author: Doodlecat74
 author_title: Server Administrator
 author_url: https://durmon.org
-author_image_url: /static/img/DoodleCat74.png
+author_image_url: /img/DoodleCat74.png
 tags: [minecraft, december, update]
 ---
 ## Updates!
