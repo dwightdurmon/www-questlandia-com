@@ -16,13 +16,15 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'Serveradmins', label: 'Server Admins', position: 'left'},
         {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        
         {
           href: 'minecraft://minecraft.durmon.org',
           label: 'Server IP: minecraft.durmon.org',

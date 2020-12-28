@@ -119,7 +119,7 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <h3 className="text--center">{title}</h3>
       <p>{description}</p>
     </div>
   );
@@ -135,7 +135,8 @@ function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -155,6 +156,10 @@ function Home() {
               Forge Modpack
             </Link>
           </div>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
         </div>
       </header>
       <main>

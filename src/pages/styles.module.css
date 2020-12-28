@@ -10,7 +10,17 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: 400px;
   background-image: url('/img/front-header.png');
+}
+
+.heroBanner2 {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  background-image: url('/img/admin-header.png');
 }
 
 @media screen and (max-width: 966px) {
