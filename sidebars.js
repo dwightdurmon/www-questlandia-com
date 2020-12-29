@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    General: ['docshome','connecting', 'lobby','commands'],
-    Worlds: ['survival-safe', 'survival-monsters','creative'],
+    General: ['docshome','connecting', 'lobby','commands','worldedit'],
+    Worlds: ['creative','iskyblock','kidsworld','minigames','oldworld','plotworld','survival-monsters','survival-safe' ],
   },
 };
