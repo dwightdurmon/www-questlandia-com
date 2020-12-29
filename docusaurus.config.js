@@ -13,11 +13,11 @@ module.exports = {
       title: 'Durmon Minecraft',
       logo: {
         alt: 'Durmon Minecraft Logo',
-        src: 'img/logo.svg',
+        src: 'img/server-icon.png',
       },
       items: [
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'Serveradmins', label: 'Server Admins', position: 'left'},
+        {to: 'serveradmins', label: 'Server Admins', position: 'left'},
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -39,11 +39,11 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Documentation',
-              to: 'docs/',
+              label: 'Rules',
+              to: 'docs/rules/',
             },
             {
-              label: 'Connecting',
+              label: 'Connecting to the Server',
               to: 'docs/connecting/',
             },
           ],
@@ -52,16 +52,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://discordapp.com/users/212012107401527296/',
             },
           ],
         },
@@ -71,10 +63,6 @@ module.exports = {
             {
               label: 'Blog',
               to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
